@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Food cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px" href="phone.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="logo" />
+        </div>
+
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#service-container">Service</a></li>
+            <li class="item"><a href="#client-section">Our Clients</a></li>
+            <li class="item"><a href="#contact">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome To Cart</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam vel quasi eius inventore minima voluptate
+            fugit dolorum, saepe fugiat qui pariatur dolorem?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque maiores non excepturi suscipit, odit
+            prt blan</p>
+        <button id="btn" onclick="clicked()">Order Now</button>
+    </section>
+
+    <section id="service-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <div id="service">
+            <div class="box">
+                <img src="img/img1.png" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perferendis, ex
+                    esse quam eos nam
+                    non, nisi quasi explicabo, adipisci maxime accusantium laboriosam possimus obcaecati? Unde quod
+                    rerum beatae accusamus?</p>
+            </div>
+            <div class="box">
+                <img src="img/img2.png" alt="">
+                <h2 class="h-secondary center">Food Catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perferendis, ex
+                    esse quam eos nam
+                    non, nisi quasi explicabo, adipisci maxime accusantium laboriosam possimus obcaecati? Unde quod
+                    rerum beatae accusamus?</p>
+            </div>
+            <div class="box">
+                <img src="img/img3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem perferendis, ex
+                    esse quam eos nam
+                    non, nisi quasi explicabo, adipisci maxime accusantium laboriosam possimus obcaecati? Unde quod
+                    rerum beatae accusamus?</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="img/client2.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/client1.png" alt="">
+            </div>
+            <div class="client-item">
+                <img src="img/client3.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">Contact Us</h1>
+        <div id="contact-box">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enetr Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="name">Email:</label>
+                    <input type="email" name="name" id="email" placeholder="Enetr Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Number:</label>
+                    <input type="phone" name="name" id="phone" placeholder="Enetr Your Number">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="" cols="30" rows="10"></textarea>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.foodcart.com. Allr rights reserved.
+        </div>
+    </footer>
+
+    <script>
+        const clicked = () => {
+            document.getElementById('btn').innerHTML = 'order done';
+        }
+    </script>
+</body>
+
+</html>

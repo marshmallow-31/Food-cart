@@ -1,0 +1,58 @@
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0% 7px;
+    padding-bottom: 5px;
+}
+
+
+#home{
+height: 280px;
+padding: 2px 30px;
+
+}
+#home::before{
+height: 370px;
+
+}
+
+#home p{
+    font-size: 13px;
+}
+
+#service{
+ flex-direction: column;
+
+}
+#service .box{
+   flex-direction: column;
+
+}
+#service .box{
+border:2px solid brown;
+margin: 12px 10px;
+border-radius: 28px;
+background-color: rgb(202, 224, 166);
+padding: 14px;
+}
+#client {
+flex-wrap: wrap;
+}
+#client img{
+width: 66px;
+padding: 2px 4px;
+height: auto;
+}
+
+
+.h-primary{
+    font-size: 26px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 22rem;
+}
